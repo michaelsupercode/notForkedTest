@@ -1,0 +1,78 @@
+/* ! Startseite */
+.search__img-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+
+  margin-top: 10%;
+}
+
+.search__img-container img {
+  background-color: var(--Color1);
+  border-radius: 100%;
+}
+
+.search__img-container--hide {
+  display: none;
+}
+
+/* ! Suchergebnisse */
+.search__output {
+  margin-bottom: 7rem;
+}
+
+/* geflexter allgemeiner Output-Container um img, Text und Link */
+.search__output article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  box-shadow: 0 0 0.3rem var(--Color8);
+  border-radius: 1rem;
+  overflow: hidden;
+
+  margin: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+/* geflexter Containter um output-img und Text */
+.search__output section {
+  display: flex;
+  gap: 20px;
+
+  align-items: center;
+}
+
+/* Essensbild */
+.search__output--img {
+  width: 50%;
+  object-fit: cover;
+}
+
+/* Container um Text */
+.search__output div {
+  padding: 0.5rem 0;
+}
+
+.search__output div h4 {
+  color: var(--Color5);
+  margin-bottom: 0.5rem;
+  line-height: 135%;
+}
+
+.search__output div p {
+  color: var(--Color7);
+  font-size: 0.875rem;
+}
+
+/* grüner Kreis */
+.search__output div p img {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+/* Pfeil */
+.search__output a img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
